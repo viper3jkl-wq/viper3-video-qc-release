@@ -2,24 +2,24 @@
   "product": "Viper3",
   "version": "2.4",
   "entry": "index.html",
-  "bytes": 6579954,
-  "sha256": "97189aa3ffb30fc9c592a044ffa579c81fa5ad8e884f73086511f98f6aff989f",
+  "bytes": 7365041,
+  "sha256": "d092653968d284757c2d39b5a0077f72e5f3d07ba9615fb076e1311b2df6cda8",
   "files": {
     "index.html": {
-      "bytes": 6579954,
-      "sha256": "97189aa3ffb30fc9c592a044ffa579c81fa5ad8e884f73086511f98f6aff989f"
+      "bytes": 7365041,
+      "sha256": "d092653968d284757c2d39b5a0077f72e5f3d07ba9615fb076e1311b2df6cda8"
     },
     "README.md": {
-      "bytes": 7603,
-      "sha256": "dd1f48a7275ff1da737f2df16f423e39046c31f91f126a095d8200b212de0adf"
+      "bytes": 8042,
+      "sha256": "bbb1b3fa257a1f94011f42534f9e394a519a7a1ed4dec8b0487f255c0edcfe9d"
     },
     "CHANGELOG.md": {
-      "bytes": 16294,
-      "sha256": "5278d67ebacbb90ce76d07bf3fe4047169124c9be8d3a618b819a8f9d59f82e0"
+      "bytes": 20414,
+      "sha256": "a1010372cb9bde3a58075c85a035821465c25c36665bd5e358bc8ab06e43d818"
     },
     "docs/LOCAL_DETECTION_MANUAL.md": {
-      "bytes": 19607,
-      "sha256": "f22d6a364ffd3b66803a652ff4a97183e0143fc234b61c8db0c64e516fcd4df8"
+      "bytes": 20445,
+      "sha256": "7bd1abc6b022ad27c173e1eb5266fb312ce2871b2f9b695db5eeef1ad842f09f"
     },
     "assets/viper3-logo.svg": {
       "bytes": 480,
@@ -31,57 +31,57 @@
       "index": 0,
       "id": null,
       "sourceBytes": 374,
-      "outputBytes": 7292,
+      "outputBytes": 10100,
       "status": "hardened",
-      "elapsedMs": 74
+      "elapsedMs": 80
     },
     {
       "index": 1,
       "id": null,
       "sourceBytes": 65524,
-      "outputBytes": 215820,
+      "outputBytes": 273580,
       "status": "hardened",
-      "elapsedMs": 342
+      "elapsedMs": 361
     },
     {
       "index": 2,
       "id": null,
       "sourceBytes": 12398,
-      "outputBytes": 44759,
+      "outputBytes": 54837,
       "status": "hardened",
-      "elapsedMs": 58
+      "elapsedMs": 63
     },
     {
       "index": 3,
       "id": null,
       "sourceBytes": 6235,
-      "outputBytes": 28215,
+      "outputBytes": 35429,
       "status": "hardened",
-      "elapsedMs": 42
+      "elapsedMs": 46
     },
     {
       "index": 4,
       "id": null,
       "sourceBytes": 5232,
-      "outputBytes": 23629,
+      "outputBytes": 30280,
       "status": "hardened",
-      "elapsedMs": 36
+      "elapsedMs": 42
     },
     {
       "index": 5,
       "id": null,
       "sourceBytes": 12644,
-      "outputBytes": 47401,
+      "outputBytes": 56856,
       "status": "hardened",
-      "elapsedMs": 61
+      "elapsedMs": 67
     },
     {
       "index": 6,
       "id": null,
-      "sourceBytes": 81333,
-      "outputBytes": 406245,
+      "sourceBytes": 81692,
+      "outputBytes": 533272,
       "status": "hardened",
-      "elapsedMs": 387
+      "elapsedMs": 401
     },
     {
       "index": 7,
@@ -95,59 +95,67 @@
       "index": 8,
       "id": null,
       "sourceBytes": 59527,
-      "outputBytes": 197499,
+      "outputBytes": 253225,
       "status": "hardened",
-      "elapsedMs": 196
+      "elapsedMs": 216
     },
     {
       "index": 9,
       "id": null,
       "sourceBytes": 815804,
-      "outputBytes": 1066646,
+      "outputBytes": 1107050,
       "status": "hardened",
-      "elapsedMs": 524
+      "elapsedMs": 542
     },
     {
       "index": 10,
       "id": null,
       "sourceBytes": 34474,
-      "outputBytes": 142717,
+      "outputBytes": 184719,
       "status": "hardened",
-      "elapsedMs": 137
+      "elapsedMs": 151
     },
     {
       "index": 11,
       "id": "servicePackageModule",
       "sourceBytes": 13585,
-      "outputBytes": 27086,
+      "outputBytes": 38192,
       "status": "hardened",
-      "elapsedMs": 20
+      "elapsedMs": 26
     },
     {
       "index": 12,
       "id": "ncmModule",
       "sourceBytes": 17794,
-      "outputBytes": 77075,
+      "outputBytes": 94095,
       "status": "hardened",
-      "elapsedMs": 78
+      "elapsedMs": 87
     },
     {
       "index": 13,
-      "id": "accessSecurityModule",
-      "sourceBytes": 6946,
-      "outputBytes": 28744,
+      "id": "autoKeyModule",
+      "sourceBytes": 55050,
+      "outputBytes": 259930,
       "status": "hardened",
-      "elapsedMs": 34
+      "elapsedMs": 207
     },
     {
       "index": 14,
-      "id": "accessGateModule",
-      "sourceBytes": 9087,
-      "outputBytes": 38409,
+      "id": "batchRenameModule",
+      "sourceBytes": 25179,
+      "outputBytes": 148132,
       "status": "hardened",
-      "elapsedMs": 37
+      "elapsedMs": 113
     }
   ],
+  "hardening": {
+    "hardenedScripts": 14,
+    "preservedScripts": 1,
+    "stringArrayThreshold": 1,
+    "smallScriptStringEncoding": "rc4",
+    "largeScriptStringEncoding": "base64",
+    "selfDefending": true
+  },
   "notes": [
     "The offline lexicon is preserved to avoid unnecessary startup and size overhead.",
     "Obfuscation raises reverse-engineering cost but cannot prevent copying or guarantee security.",
