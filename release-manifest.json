@@ -2,12 +2,12 @@
   "product": "Viper3",
   "version": "2.4",
   "entry": "index.html",
-  "bytes": 7365041,
-  "sha256": "d092653968d284757c2d39b5a0077f72e5f3d07ba9615fb076e1311b2df6cda8",
+  "bytes": 7358541,
+  "sha256": "f1a1d3b54103c8a9f82a380c950da4b172da72d080ce3bcd3c1615c373080b50",
   "files": {
     "index.html": {
-      "bytes": 7365041,
-      "sha256": "d092653968d284757c2d39b5a0077f72e5f3d07ba9615fb076e1311b2df6cda8"
+      "bytes": 7358541,
+      "sha256": "f1a1d3b54103c8a9f82a380c950da4b172da72d080ce3bcd3c1615c373080b50"
     },
     "README.md": {
       "bytes": 8042,
@@ -31,31 +31,31 @@
       "index": 0,
       "id": null,
       "sourceBytes": 374,
-      "outputBytes": 10100,
+      "outputBytes": 10265,
       "status": "hardened",
-      "elapsedMs": 80
+      "elapsedMs": 81
     },
     {
       "index": 1,
       "id": null,
       "sourceBytes": 65524,
-      "outputBytes": 273580,
+      "outputBytes": 268504,
       "status": "hardened",
-      "elapsedMs": 361
+      "elapsedMs": 359
     },
     {
       "index": 2,
       "id": null,
       "sourceBytes": 12398,
-      "outputBytes": 54837,
+      "outputBytes": 56050,
       "status": "hardened",
-      "elapsedMs": 63
+      "elapsedMs": 65
     },
     {
       "index": 3,
       "id": null,
       "sourceBytes": 6235,
-      "outputBytes": 35429,
+      "outputBytes": 35569,
       "status": "hardened",
       "elapsedMs": 46
     },
@@ -63,25 +63,25 @@
       "index": 4,
       "id": null,
       "sourceBytes": 5232,
-      "outputBytes": 30280,
+      "outputBytes": 30708,
       "status": "hardened",
-      "elapsedMs": 42
+      "elapsedMs": 40
     },
     {
       "index": 5,
       "id": null,
       "sourceBytes": 12644,
-      "outputBytes": 56856,
+      "outputBytes": 57534,
       "status": "hardened",
-      "elapsedMs": 67
+      "elapsedMs": 69
     },
     {
       "index": 6,
       "id": null,
       "sourceBytes": 81692,
-      "outputBytes": 533272,
+      "outputBytes": 529484,
       "status": "hardened",
-      "elapsedMs": 401
+      "elapsedMs": 400
     },
     {
       "index": 7,
@@ -95,7 +95,7 @@
       "index": 8,
       "id": null,
       "sourceBytes": 59527,
-      "outputBytes": 253225,
+      "outputBytes": 253086,
       "status": "hardened",
       "elapsedMs": 216
     },
@@ -103,39 +103,39 @@
       "index": 9,
       "id": null,
       "sourceBytes": 815804,
-      "outputBytes": 1107050,
+      "outputBytes": 1107006,
       "status": "hardened",
-      "elapsedMs": 542
+      "elapsedMs": 554
     },
     {
       "index": 10,
       "id": null,
       "sourceBytes": 34474,
-      "outputBytes": 184719,
+      "outputBytes": 182967,
       "status": "hardened",
-      "elapsedMs": 151
+      "elapsedMs": 152
     },
     {
       "index": 11,
       "id": "servicePackageModule",
       "sourceBytes": 13585,
-      "outputBytes": 38192,
+      "outputBytes": 37547,
       "status": "hardened",
-      "elapsedMs": 26
+      "elapsedMs": 25
     },
     {
       "index": 12,
       "id": "ncmModule",
       "sourceBytes": 17794,
-      "outputBytes": 94095,
+      "outputBytes": 94703,
       "status": "hardened",
-      "elapsedMs": 87
+      "elapsedMs": 85
     },
     {
       "index": 13,
       "id": "autoKeyModule",
       "sourceBytes": 55050,
-      "outputBytes": 259930,
+      "outputBytes": 264237,
       "status": "hardened",
       "elapsedMs": 207
     },
@@ -143,9 +143,9 @@
       "index": 14,
       "id": "batchRenameModule",
       "sourceBytes": 25179,
-      "outputBytes": 148132,
+      "outputBytes": 145528,
       "status": "hardened",
-      "elapsedMs": 113
+      "elapsedMs": 110
     }
   ],
   "hardening": {
