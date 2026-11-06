@@ -2,20 +2,20 @@
   "product": "Viper3",
   "version": "2.4",
   "entry": "index.html",
-  "bytes": 7358541,
-  "sha256": "f1a1d3b54103c8a9f82a380c950da4b172da72d080ce3bcd3c1615c373080b50",
+  "bytes": 9162906,
+  "sha256": "bf0c6ec77f4e441081a4aa7eeee7bc9c4a3d72d665f8862459c35d7f53cef482",
   "files": {
     "index.html": {
-      "bytes": 7358541,
-      "sha256": "f1a1d3b54103c8a9f82a380c950da4b172da72d080ce3bcd3c1615c373080b50"
+      "bytes": 9162906,
+      "sha256": "bf0c6ec77f4e441081a4aa7eeee7bc9c4a3d72d665f8862459c35d7f53cef482"
     },
     "README.md": {
-      "bytes": 8042,
-      "sha256": "bbb1b3fa257a1f94011f42534f9e394a519a7a1ed4dec8b0487f255c0edcfe9d"
+      "bytes": 8367,
+      "sha256": "e9a9a460f0b2568836231fe22a99824bff41fabbb37e4b6653cfa328aa5194e2"
     },
     "CHANGELOG.md": {
-      "bytes": 20414,
-      "sha256": "a1010372cb9bde3a58075c85a035821465c25c36665bd5e358bc8ab06e43d818"
+      "bytes": 21980,
+      "sha256": "ba09dee75e2b45e512ef32851cc8c2f6ef50f808242eba79e68b4a8a7f7e6915"
     },
     "docs/LOCAL_DETECTION_MANUAL.md": {
       "bytes": 20445,
@@ -31,57 +31,57 @@
       "index": 0,
       "id": null,
       "sourceBytes": 374,
-      "outputBytes": 10265,
+      "outputBytes": 13576,
       "status": "hardened",
-      "elapsedMs": 81
+      "elapsedMs": 241
     },
     {
       "index": 1,
       "id": null,
       "sourceBytes": 65524,
-      "outputBytes": 268504,
+      "outputBytes": 373967,
       "status": "hardened",
-      "elapsedMs": 359
+      "elapsedMs": 483
     },
     {
       "index": 2,
       "id": null,
       "sourceBytes": 12398,
-      "outputBytes": 56050,
+      "outputBytes": 74181,
       "status": "hardened",
-      "elapsedMs": 65
+      "elapsedMs": 81
     },
     {
       "index": 3,
       "id": null,
       "sourceBytes": 6235,
-      "outputBytes": 35569,
+      "outputBytes": 50285,
       "status": "hardened",
-      "elapsedMs": 46
+      "elapsedMs": 63
     },
     {
       "index": 4,
       "id": null,
       "sourceBytes": 5232,
-      "outputBytes": 30708,
+      "outputBytes": 41340,
       "status": "hardened",
-      "elapsedMs": 40
+      "elapsedMs": 70
     },
     {
       "index": 5,
       "id": null,
       "sourceBytes": 12644,
-      "outputBytes": 57534,
+      "outputBytes": 80361,
       "status": "hardened",
-      "elapsedMs": 69
+      "elapsedMs": 87
     },
     {
       "index": 6,
       "id": null,
       "sourceBytes": 81692,
-      "outputBytes": 529484,
+      "outputBytes": 777929,
       "status": "hardened",
-      "elapsedMs": 400
+      "elapsedMs": 574
     },
     {
       "index": 7,
@@ -95,57 +95,57 @@
       "index": 8,
       "id": null,
       "sourceBytes": 59527,
-      "outputBytes": 253086,
+      "outputBytes": 447697,
       "status": "hardened",
-      "elapsedMs": 216
+      "elapsedMs": 380
     },
     {
       "index": 9,
       "id": null,
       "sourceBytes": 815804,
-      "outputBytes": 1107006,
+      "outputBytes": 1782892,
       "status": "hardened",
-      "elapsedMs": 554
+      "elapsedMs": 792
     },
     {
       "index": 10,
       "id": null,
       "sourceBytes": 34474,
-      "outputBytes": 182967,
+      "outputBytes": 280558,
       "status": "hardened",
-      "elapsedMs": 152
+      "elapsedMs": 233
     },
     {
       "index": 11,
       "id": "servicePackageModule",
       "sourceBytes": 13585,
-      "outputBytes": 37547,
+      "outputBytes": 148182,
       "status": "hardened",
-      "elapsedMs": 25
+      "elapsedMs": 132
     },
     {
       "index": 12,
       "id": "ncmModule",
       "sourceBytes": 17794,
-      "outputBytes": 94703,
+      "outputBytes": 154114,
       "status": "hardened",
-      "elapsedMs": 85
+      "elapsedMs": 152
     },
     {
       "index": 13,
       "id": "autoKeyModule",
       "sourceBytes": 55050,
-      "outputBytes": 264237,
+      "outputBytes": 434330,
       "status": "hardened",
-      "elapsedMs": 207
+      "elapsedMs": 390
     },
     {
       "index": 14,
       "id": "batchRenameModule",
       "sourceBytes": 25179,
-      "outputBytes": 145528,
+      "outputBytes": 218357,
       "status": "hardened",
-      "elapsedMs": 110
+      "elapsedMs": 185
     }
   ],
   "hardening": {
@@ -153,11 +153,33 @@
     "preservedScripts": 1,
     "stringArrayThreshold": 1,
     "smallScriptStringEncoding": "rc4",
-    "largeScriptStringEncoding": "base64",
+    "largeScriptStringEncoding": "rc4",
+    "stringArrayWrappersCount": {
+      "smallScripts": 3,
+      "largeScripts": 2
+    },
+    "stringArrayCallsTransformThreshold": 0.75,
+    "numbersToExpressions": true,
+    "splitStrings": "small business scripts",
+    "splitStringsChunkLength": 16,
+    "controlFlowFlattening": {
+      "modules": [
+        "ncmModule",
+        "autoKeyModule",
+        "batchRenameModule"
+      ],
+      "threshold": 0.15
+    },
+    "maintenanceCommentsRemoved": 8,
+    "privatePathScan": true,
+    "debugProtection": false,
+    "domainLock": false,
     "selfDefending": true
   },
   "notes": [
     "The offline lexicon is preserved to avoid unnecessary startup and size overhead.",
+    "All processed business scripts use RC4 string-array encoding; small scripts also split strings and large scripts avoid expensive call-site transforms.",
+    "Control-flow flattening is limited to the three utility modules at a low threshold to balance analysis cost and runtime reliability.",
     "Obfuscation raises reverse-engineering cost but cannot prevent copying or guarantee security.",
     "This SHA-256 detects file changes during distribution; it is not a remote attestation mechanism."
   ]
