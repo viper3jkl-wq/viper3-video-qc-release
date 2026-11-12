@@ -2,24 +2,24 @@
   "product": "Viper3",
   "version": "2.4",
   "entry": "index.html",
-  "bytes": 9130575,
-  "sha256": "6f4627dce084a71ff0e6f94ec943e78bce2d280214d0e64ba99a387a1a72e66c",
+  "bytes": 9191329,
+  "sha256": "4e0b98ab0db9cee266a6265717e29f4b5be609971b705a4c405406857bcdb46a",
   "files": {
     "index.html": {
-      "bytes": 9130575,
-      "sha256": "6f4627dce084a71ff0e6f94ec943e78bce2d280214d0e64ba99a387a1a72e66c"
+      "bytes": 9191329,
+      "sha256": "4e0b98ab0db9cee266a6265717e29f4b5be609971b705a4c405406857bcdb46a"
     },
     "README.md": {
-      "bytes": 7725,
-      "sha256": "c4b48d7ff0a4c47cb08e68b9c6723948648e798a469959b9996e71522970bf86"
+      "bytes": 7974,
+      "sha256": "6a7f5ec7af0f280cd53f87c9f0a6c7a0c1cb29c474724501d90af9e27b716dbc"
     },
     "CHANGELOG.md": {
-      "bytes": 14536,
-      "sha256": "fe921ec83f608e12f6515ae6dd3905b993c4309ac3e74234441c888e333fa6b8"
+      "bytes": 15628,
+      "sha256": "fbdca4defdfa9dfe0d87e5154470bcca8b2854a758b21d4ac640af994c7d4f02"
     },
     "docs/LOCAL_DETECTION_MANUAL.md": {
-      "bytes": 19973,
-      "sha256": "394c360fdb542fc2f4a1d38861d58f7e4b98138992510fdbc7377a8e895ae24b"
+      "bytes": 20333,
+      "sha256": "85e57310594fa161e34338bc4bbc0f6a3a0d0200cb583a4833582083879c93b5"
     },
     "assets/viper3-logo.svg": {
       "bytes": 480,
