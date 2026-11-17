@@ -2,20 +2,20 @@
   "product": "Viper3",
   "version": "2.4",
   "entry": "index.html",
-  "bytes": 9288517,
-  "sha256": "14155e4d3bdfaaec66863a16c4359abec61d706696022f406928f2f07d7fcf36",
+  "bytes": 9276062,
+  "sha256": "3a3250762ed414201c3a1eac56e76515cae9579d2df2294fb997b60221719bc9",
   "files": {
     "index.html": {
-      "bytes": 9288517,
-      "sha256": "14155e4d3bdfaaec66863a16c4359abec61d706696022f406928f2f07d7fcf36"
+      "bytes": 9276062,
+      "sha256": "3a3250762ed414201c3a1eac56e76515cae9579d2df2294fb997b60221719bc9"
     },
     "README.md": {
       "bytes": 8360,
       "sha256": "51f090fb7d082ca2ef46574c2bdcda008ea5562a6d0ff1988304ab0ba90aabec"
     },
     "CHANGELOG.md": {
-      "bytes": 17826,
-      "sha256": "a74c5a0458af279fd7484cc44ced37eea4836187bde1dc0d60778ea1d50233cb"
+      "bytes": 17957,
+      "sha256": "4e98938713ad9bdc2c38c08d3bd8777c875bd58eef4d366c5ade67011c74b1ab"
     },
     "docs/LOCAL_DETECTION_MANUAL.md": {
       "bytes": 21995,
